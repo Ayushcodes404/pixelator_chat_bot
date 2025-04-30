@@ -60,7 +60,7 @@ def get_bot_response(model, user_input, emotion, role):
     return response.text
 
 def main():
-    st.title("GenZ Chat Bot")
+    st.title("Mann Chat Bot")
     
     # Initialize the models
     model = initialize_vertexai()
